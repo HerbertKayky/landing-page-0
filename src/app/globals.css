@@ -16,6 +16,12 @@ body {
     .text-yellow {
         color: #F4D399;
     }
+    .bg-green-new {
+        background-color: #698457;
+    }
+    .bg-green-dark {
+        background-color: #334127;
+    }
     .bg-yellow {
         background-color: #F4D399;
     }
