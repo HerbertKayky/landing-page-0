@@ -13,6 +13,12 @@ body {
     .text-quase {
         color: #9A6A50;
     }
+    .text-yellow {
+        color: #F4D399;
+    }
+    .bg-yellow {
+        background-color: #F4D399;
+    }
     .bg-quase2 {
         background-color: #9A6A50;
     }

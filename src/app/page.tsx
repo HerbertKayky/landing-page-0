@@ -1,7 +1,8 @@
 import { Header } from "./components/header";
 import { Hero } from "./components/hero";
 import { Services } from "./components/services";
-import { Specialties } from "./components/specialties";
+import { Specialties } from "./components/specialties/couple";
+import { SpecialtiesIndividual } from "./components/specialties/individual";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <Hero />
       <Services />
       <Specialties />
+      <SpecialtiesIndividual />
     </>
   );
 }
