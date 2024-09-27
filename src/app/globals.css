@@ -37,5 +37,10 @@ body {
     .bg-gray {
         background-color: #EBEBEB;
     }
+    .bg-gradient {
+        background: linear-gradient(90deg, #FDD9BF 0%, #FDE8D4 50%, #FDD9BF 100%);
+        ;
+
+    }
     
 }
