@@ -19,9 +19,12 @@ const specialtiesData = [
 
 export function Specialties() {
   return (
-    <div className="bg-gray pt-12 w-full py-8 flex">
+    <div className="bg-gray pt-12 w-full px-7 py-8 flex flex-wrap justify-center">
       {specialtiesData.map((service, index) => (
-        <div className="inline-flex flex-col m-4 max-w-xs" key={index}>
+        <div
+          className="inline-flex flex-col m-2 max-w-72 w-full sm:w-1/2 md:w-1/3"
+          key={index}
+        >
           <Image
             className="rounded-lg"
             src={service.image}
@@ -31,16 +34,13 @@ export function Specialties() {
           />
         </div>
       ))}
-      <div className="m-10">
+      <div className="m-10 max-w-lg w-full">
         <h1 className="text-quase text-4xl">Atendimento para casal</h1>
         <p className="text-gray-600 text-xl mt-5">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
           repellendus est, neque deleniti ut velit molestias sunt, tenetur
           soluta, esse recusandae. Est reiciendis iste sint dignissimos commodi
-          quas ipsa cupiditate? soluta, esse recusandae. Est reiciendis iste
-          sint dignissimos commodi quas ipsa cupiditate? soluta, esse
-          recusandae. Est reiciendis iste sint dignissimos commodi quas ipsa
-          cupiditate?
+          quas ipsa cupiditate?
         </p>
 
         <div className="inline-flex items-center px-6 py-2 rounded-lg bg-quase2 gap-3 mt-8 transition-transform hover:scale-105">
