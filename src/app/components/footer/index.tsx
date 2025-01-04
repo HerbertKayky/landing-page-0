@@ -3,7 +3,7 @@ import wppIcon from "/public/WhatsApp_icon.png";
 import Image from "next/image";
 export function Footer() {
   return (
-    <footer className="bg-quase2 text-white py-12">
+    <footer className="bg-quase2 text-white pt-5 pb-2">
       <div className="container mx-auto px-4 flex flex-wrap justify-between">
         <div className="w-full md:w-1/3 mb-8 md:mb-0">
           <h3 className="text-xl font-bold">Sobre Ana Alícia</h3>
