@@ -37,7 +37,7 @@ export function Footer() {
 
         <div className="w-full md:w-1/3">
           <h3 className="text-xl font-bold">Contato</h3>
-          <p className="mt-4">Telefone: (XX) XXXX-XXXX</p>
+          <p className="mt-4">Telefone: (81) 9 9329-6809</p>
           <p className="mt-2">Email: anaalicia@exemplo.com</p>
           <div className="flex space-x-4 mt-4">
             <Link href="https://wa.me/81993296809" aria-label="WhatsApp">
