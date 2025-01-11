@@ -3,44 +3,46 @@
 @tailwind utilities;
 
 body {
-    background-color: #FEEBDD;
+  background-color: #feebdd;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 @layer utilities {
-    .text-green {
-        color: #48553B;
-    }
-    .text-quase {
-        color: #9A6A50;
-    }
-    .text-yellow {
-        color: #F4D399;
-    }
-    .bg-green-new {
-        background-color: #698457;
-    }
-    .bg-green-dark {
-        background-color: #334127;
-    }
-    .bg-yellow {
-        background-color: #F4D399;
-    }
-    .bg-quase2 {
-        background-color: #9A6A50;
-    }
-    .bg-green {
-        background-color: #48553B;
-    }
-    .bg-quase {
-        background-color: #B59677;
-    }
-    .bg-gray {
-        background-color: #EBEBEB;
-    }
-    .bg-gradient {
-        background: linear-gradient(90deg, #FDD9BF 0%, #FDE8D4 50%, #FDD9BF 100%);
-        ;
-
-    }
-    
+  .text-green {
+    color: #48553b;
+  }
+  .text-quase {
+    color: #9a6a50;
+  }
+  .text-yellow {
+    color: #f4d399;
+  }
+  .bg-green-new {
+    background-color: #698457;
+  }
+  .bg-green-dark {
+    background-color: #334127;
+  }
+  .bg-yellow {
+    background-color: #f4d399;
+  }
+  .bg-quase2 {
+    background-color: #9a6a50;
+  }
+  .bg-green {
+    background-color: #48553b;
+  }
+  .bg-quase {
+    background-color: #b59677;
+  }
+  .bg-gray {
+    background-color: #ebebeb;
+  }
+  .bg-gradient {
+    background: linear-gradient(90deg, #fdd9bf 0%, #fde8d4 50%, #fdd9bf 100%);
+  }
 }
