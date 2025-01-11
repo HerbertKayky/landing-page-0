@@ -1,5 +1,5 @@
 import Image from "next/image";
-import heroImg from "/public/pic.jpg";
+import heroImg from "/public/woman.jpg";
 import Link from "next/link";
 import wppIcon from "/public/WhatsApp_icon.png";
 
