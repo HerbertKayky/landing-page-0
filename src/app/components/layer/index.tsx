@@ -1,6 +1,6 @@
 export function Layer() {
   return (
-    <div className="bg-gradient flex flex-col items-center px-4 py-12">
+    <div className="bg-gradient flex flex-col items-center px-4 py-12" id="qualidades">
       <div className="text-center mb-5">
         <h1 className="text-3xl text-slate-700 leading-relaxed">
           O resultado da terapia é tornar-se uma pessoa <br /> autônoma, capaz

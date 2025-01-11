@@ -19,7 +19,7 @@ const specialtiesData = [
 
 export function Specialties() {
   return (
-    <div className="bg-gray pt-12 w-full px-7 py-8 flex flex-wrap justify-center">
+    <div className="bg-gray pt-12 w-full px-7 py-8 flex flex-wrap justify-center" id="comofunciona">
       {specialtiesData.map((service, index) => (
         <div
           className="inline-flex flex-col m-2 max-w-72 w-full sm:w-1/2 md:w-1/3"
