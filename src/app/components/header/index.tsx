@@ -8,29 +8,29 @@ export function Header() {
       <nav className="flex flex-wrap justify-center md:justify-start text-xl mt-4">
         <a
           href="#sobre"
-          className="px-4 md:px-5 hover:text-green transition-colors"
+          className="px-4 md:px-5 hover:text-green hover:scale-105 transition-all"
         >
           Sobre
         </a>
         <a
           href="#comofunciona"
-          className="px-4 md:px-5 hover:text-green transition-colors"
+          className="px-4 md:px-5 hover:text-green hover:scale-105 transition-all"
         >
-          Como funciona
+          Como funciona'
         </a>
         <a
           href="#qualidades"
-          className="px-4 md:px-5 hover:text-green transition-colors"
+          className="px-4 md:px-5 hover:text-green hover:scale-105 transition-all"
         >
           Qualidades
         </a>
         <a
           href="#contato"
-          className="px-4 md:px-5 hover:text-green transition-colors"
+          className="px-4 md:px-5 hover:text-green hover:scale-105 transition-all"
         >
           Entre em contato
         </a>
-        <span className="font-medium text-green px-4 md:px-5">CRP: 24/02366</span>
+        <span className="text-green px-4 md:px-5">CRP: 24/02366</span>
       </nav>
     </header>
   );
